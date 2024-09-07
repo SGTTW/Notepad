@@ -1,0 +1,76 @@
+main {
+  padding: 36px;
+}
+
+.form {
+  display: grid;
+  grid-template: 100% 100% / 1fr 1fr;
+  gap: 17px;
+}
+
+/* .form--label {
+  margin-bottom: 5px;
+} */
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+  /* height: 35px; */
+  /* width: 100%; */
+}
+.form--input:focus{
+ 
+/* border-color: orange; */
+outline: 0;
+/* box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25); */
+/* box-shadow: 0 0 0 4px dodgerblue; */
+ 
+box-shadow: 0 0 0 4px rgba(113 ,31, 141, 1);
+
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* body {
+  font-family: "Karla", sans-serif;
+}
+
+input {
+  margin-top: 3rem;
+  padding-left: 0.7rem;
+  width: calc(50% - 0.1rem); /* Equal width for both inputs */
+/* outline: none;
+  border-radius: 5px;
+  height: 2.5rem;
+} */
+/* 
+button {
+  margin-top: 2rem;
+  width: 100%;
+  border-radius: 5px;
+  height: 2.5rem;
+  color: #fff;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+} */
+/* .l-input {
+  /* Adjust the value to add space */
+/* }
+
+.r-input {
+} */
